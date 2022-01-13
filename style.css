@@ -1,0 +1,29 @@
+body{
+    font-family: Verdana, Arial, 'Courier New';
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    top: 0px;
+    background-color: cadetblue;
+    width: 100%;
+    color: black;
+    border-bottom: cornflowerblue;
+    height: 10%;
+}
+nav img{
+    height: 10%;
+}
+.enlace{
+    width: 50%;
+}
+nav div{
+    width:33%;
+}
+.enlace{
+    display: flex;
+    flex-wrap: wrap;
+    
+}

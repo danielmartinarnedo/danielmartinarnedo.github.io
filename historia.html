@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<header>
+    <img src="assets/img/Lament_Projects_icon.png" alt="Logo de Lament of the Gems"></a>
+    <nav>
+        <a href="index.html">Personajes</a>
+        <a href="historia.html">Gameplay</a>
+        <a href="animaciones.html">Animaciones</a>
+    </nav>
+    <div class="menup2">
+        <form action="">
+            <div class="entrada">
+                <label for="correo">E-mail:</label>
+                <input type="mail" name="correo" id="correo">
+            </div>
+            <div class="entrada">
+                <label for="password">Contraseña:</label>
+                <input type="text" name="password" id="password">
+            </div>
+            <button>Log in</button>
+        </form>
+    </div>
+</header>
+<body class="max">
+    <main>
+    <section>
+        <h2>MECÁNICAS PRINCIPALES</h2>
+        <article>
+            <details>
+            <summary>Combat</summary>
+            <figure>
+                <figcaption>
+                    <img src="assets/img/combat.PNG" alt="Imagen de un combate">
+                </figcaption>
+                <p>Combate contra piratas en un barco</p>
+            </figure>
+            <div>
+            <p>Para empezar por el sistema de combate hay que especificar los distintos tipos de parametros que hay en el juego.</p>
+                <dl>
+                    <dt>Nivel</dt>
+                    <dd>Hace reference al poder que tiene cada personaje y afecta exponencialmente al resto de las estadisticas aumentandolas cuando este aumenta.</dd>
+                    <dt>Experiencia</dt>
+                    <dd>Es una cantidad de punto determinada necesaria para subir un personaje de nivel. Esta cantidad aumenta comforme se gana batallas o despues de alguno determinados eventos.</dd>
+                    <dt>HP</dt>
+                    <dd>Es la cantidad de puntos de vida que tiene una criatura y personaje. Una vez que llegue a 0 entra en estado de "Muerte" donde no podra actuar y no ganará experiencia despues de batallas por lo que es necesario usar una habilidad o objeto para eliminar dicho estado.</dd>
+                    <dt>Ether(ET)</dt>
+                    <dd>Es la cantidad de puntos que se puede usar en ciertas habilidades usualmente mágicas, estos puntos empiezan con la máxima cantidad posible del personaje, en el cantidad que se dejó tras el usó de estos puntos fuera de combate o en la cantidad que se dejo tras el anterior combate. El ether se van gastando segun la habildad que uses y solo se regenera tras usar algunos objetos o habilidades.</dd>
+                    <dt>Puntos Tacticos(TP)</dt>
+                    <dd>Es la cantidad de puntos que se puede usar en ciertas habilidades usualmente físicas, estos puntos empiezan cada batalla entre 0 a 20 puntos y se van gastando segun la habildad que uses. Además solo se regenera tras usar algunos objetos o habilidades, hacer daño con el ataque normal e incluso recibiendo daño.</dd>
+                    <dt>Ataque(Attack)</dt>
+                    <dd>Es la capacidad de infligir daño categorizado normalmente como físico.</dd>
+                    <dt>Defensa(Defense)</dt>
+                    <dd>Es la capacidad de resistir daño categorizado normalmente como físico.</dd>
+                    <dt>Ataque Mágico(ET. Atk.)</dt>
+                    <dd>Es la capacidad de infligir daño categorizado normalmente como mágico.</dd>
+                    <dt>Defensa Mágica(ET. Def.)</dt>
+                    <dd>Es la capacidad de resistir daño categorizado normalmente como mágico.</dd>
+                    <dt>Agilidad(Agility)</dt>
+                    <dd>Es la capacidad de ir antes que otros personajes/creaturas y tambien afecta algunas habilidades.</dd>
+                    <dt>Suerte(Luck)</dt>
+                    <dd>Es la capacidad de infligir críticos y de obtener más objetos al ganar una batalla.</dd>
+                    <dt>Precisión(Precision)</dt>
+                    <dd>Es la capacidad de acertas ataques.</dd>
+                    <dt>Evasión(Evasion)</dt>
+                    <dd>Es la esquivar de acertas ataques.</dd>
+                </dl>
+                <p>El sistema de combate está basado en juegos jrpg de los años 90s y los principio de los 2000s, donde al principo de cada turno deberas elegir las acciones que haran todos los personajes.</p>
+            </div>
+            </details>
+        </article>
+        <article>
+            <details>
+            <summary>Recursos</summary>
+            <figure>
+                <figcaption>
+                    <img src="assets/img/resource.PNG" alt="Minando Cobre">
+                </figcaption>
+                <p>Minando nodos de cobre en una cobre</p>
+            </figure>
+            <div>
+            <p>A lo largo de la historia veras lugares donde puedes recoger minerales, maderas o incluso gemas. Para ello hay cuatro formas de conseguirlos:</p>
+            <dl>
+                <dt>Asesinado criaturas:</dt>
+                <dd>Algunas criaturas pueden soltar materiales tras terminar el combate.</dd>
+                <dt>Recolectando:</dt>
+                <dd>En algunos lugares como minas, bosques, etc. Hay nodos de materiales los cuales requieren ciertas herramientas para recolectarlos. Una vez hecho esto, no podras volver a coger materiales en el mismo nodo hasta dentro de un tiempo.</dd>
+                <dt>Comprando:</dt>
+                <dd>En algunas ciudades, pueblos o puestos habrá tiendas de recursos donde podras comprar todos los recursos de los que disponga por un modico precio.</dd>
+                <dt>Haciendo misiones:</dt>
+                <dd>Despues de hacer una mísion, usualmente segundaría, se te puede dar como recursos como pago en vez de dinero.</dd>
+            </dl>
+            </div>
+            </details>
+        </article>
+        <article>
+            <details>
+            <summary>Fabricación</summary>
+            <figure>
+                <figcaption>
+                    <img src="assets/img/craftingsystem.png" alt="Imagen del sistema de Fabricación">
+                </figcaption>
+                <p>Captura de pantalla del Sistema de Fabricación</p>
+            </figure>
+            <p>En algunas zonas es posible que puedas fabrir nuevos objetos. Desde consumibles hasta nuevo y mejor equipamiento. Esto requiere otros objetos como lo ya mencionados recursos, consumibles o incluso otro equipamiento.</p>
+        </details>
+        </article>
+        <article>
+            <details>
+            <summary>Opciones</summary>
+            <figure>
+                <figcaption>
+                    <img src="assets/img/Option.PNG" alt="Imagen de Opción importante">
+                </figcaption>
+                <p>Captura de pantalla eligiendo Opciones Importantes</p>
+            </figure>
+            <div>
+            <p>Ten cuidado que decides por que tú, mi querido jugador, eliges tu propio destino. En ocasiones en los dialogos entre personajes se te dará la opción de elegir que hacer, según lo que elijas la historia será afectada de una forma u otra.</p>
+            </div>
+        </details>
+        </article>
+    </section>
+</main>
+</body>
+<footer>
+    <a href="https://lament-projects.itch.io/"><i class="fa-brands fa-itch-io fa-3x"></i></a>
+    <a href="https://twitter.com/LamentProjects"><i class="fa-brands fa-twitter fa-3x"></i></a>
+    <a href="https://www.instagram.com/lament_projects/"><i class="fa-brands fa-instagram-square fa-3x"></i></a>
+</footer>
+</html>
